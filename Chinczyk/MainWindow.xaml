@@ -1,0 +1,31 @@
+﻿<Window x:Class="Chinczyk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chinczyk"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="1200">
+    <DockPanel>
+        <StatusBar Name="bar" DockPanel.Dock="Bottom">
+            <TextBlock Name ="label"  Background="Red"
+                   >Kolej Czerwonego</TextBlock>
+        </StatusBar>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Name="Reset" Header="Reset" Margin="5" Padding="3" Click="reset"> </MenuItem>
+        </Menu>
+        <Viewbox DockPanel.Dock="Left" Width="600">
+            <Grid Name="gPlansza" Width="340" Height="340">
+
+            </Grid>
+
+        </Viewbox>        
+        <TextBlock Name ="tbLog"  Background="LightGray"
+                   >Log...</TextBlock>
+        <Button Margin="200" Name="KOSTKA" Click="klik">
+            KOSTKA
+        </Button>
+
+    </DockPanel>
+    
+</Window>
