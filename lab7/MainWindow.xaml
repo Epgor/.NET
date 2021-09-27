@@ -1,0 +1,136 @@
+﻿<Window x:Class="lab7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="5">
+        <TabControl Background="gray">
+      
+
+            <TabItem Header="Seszele" Height="22" VerticalAlignment="Top">
+                <Viewbox Stretch="Uniform">
+                    <Canvas Width="270" Height="180">
+                        <Polygon Points="0,0, 0,180, 90,0" 
+        Fill="#003D88" />
+                        <Polygon Points="90,0, 0,180, 180,0" 
+        Fill="#FCD955" />
+                        <Polygon Points="180,0, 0,180, 270,60, 270,0" 
+        Fill="#D72323" />
+                        <Polygon Points="270,60, 0,180, 270,120" 
+        Fill="#FFFFFF" />
+                        <Polygon Points="270,120, 0,180, 270,180"  
+        Fill="#007B3A" />
+                    </Canvas>
+                </Viewbox>
+            </TabItem>
+            <TabItem Header="Jamajka">
+                <Viewbox Stretch="Uniform">
+                    <Canvas Width="270" Height="180">
+                        <Polygon Points="0,0 0,180, 270,180 270,0 " 
+        Fill="Gold" />
+                        <Polygon Points="0,20 0,160, 115, 90"  
+        Fill="Black" />
+                        <Polygon Points="270,20 270,160, 155, 90"  
+        Fill="Black" />
+                        <Polygon Points="20,0 250, 0, 135, 70 "  
+        Fill="Green" />
+                        <Polygon Points="20,180 250, 180, 135, 110 "  
+        Fill="Green" />
+                    </Canvas>
+                </Viewbox>
+            </TabItem>
+            <TabItem Header="Timor Wschodni">
+                <Viewbox Stretch="Uniform">
+                    <Canvas Width="270" Height="180">
+                        <Polygon Points="0,0 0,180, 270,180 270,0 " 
+        Fill="#DC241F" />
+                        <Polygon Points="0,0, 0,180, 135, 90 " 
+        Fill="#FFC726" RenderTransformOrigin="-0.348,0.504" />
+                        <Polygon Points="0,0, 0,180, 90, 90 " 
+        Fill="Black" />
+
+                        <Polygon FillRule="nonzero" Points="0,425 1170,425 230,1100 595,3 950,1100" 
+        Fill="White" RenderTransformOrigin="0.5,0.5" Canvas.Left="-80" Canvas.Top="-465" >
+                            <Polygon.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="0.03" ScaleY="0.04"/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="-20"/>
+                                    <TranslateTransform X="-456.32"/>
+                                </TransformGroup>
+                            </Polygon.RenderTransform>
+                        </Polygon>
+                    </Canvas>
+                </Viewbox>
+            </TabItem>
+            <TabItem Header="Syria">
+                <Viewbox Stretch="Uniform">
+                    <Canvas Width="270" Height="180">
+                        <Polygon Points="0,60,0,0,270,0,270,60" 
+        Fill="#ce1126" />
+
+                        <Polygon Points="0,120,0,60,270,60,270,120" 
+        Fill="#FFFFFF" />
+                        <Polygon FillRule="nonzero" Points="0,425 1170,425 230,1100 595,3 950,1100" 
+        Fill="#007a3d" RenderTransformOrigin="0.5,0.5" Canvas.Left="33" Canvas.Top="-460" >
+                            <Polygon.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="0.04" ScaleY="0.04"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform X="-526.32"/>
+                                </TransformGroup>
+                            </Polygon.RenderTransform>
+                        </Polygon>
+                        <Polygon Points="0,180,0,120,270,120,270,180" 
+        Fill="#000000" />
+                        <Polygon FillRule="nonzero" Points="0,425 1170,425 230,1100 595,3 950,1100" 
+                            Fill="#007a3d" RenderTransformOrigin="0.5,0.5" Canvas.Left="122" Canvas.Top="-461" >
+                            <Polygon.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="0.04" ScaleY="0.04"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform X="-526.32"/>
+                                </TransformGroup>
+                            </Polygon.RenderTransform>
+                        </Polygon>
+                    </Canvas>
+                </Viewbox>
+            </TabItem>
+            <TabItem Header="Libia">
+                <Viewbox Stretch="Uniform">
+                    <Canvas Width="270" Height="180">
+                        <Polygon Points="0,45,0,0,270,0,270,45" 
+        Fill="red" />
+
+                        <Polygon Points="0,135,0,45,270,45,270,135" 
+        Fill="black" />
+                        <Ellipse Fill="White"  Canvas.Left="125"
+Canvas.Top="75" Width="25" Height="30"/>
+                        <Ellipse Fill="Black"  Canvas.Left="129"
+Canvas.Top="77" Width="28" Height="28"/>
+                        <Polygon FillRule="nonzero" Points="0,425 1170,425 230,1100 595,3 950,1100" 
+        Fill="White" RenderTransformOrigin="0.5,0.5" Canvas.Left="27" Canvas.Top="-460" >
+                            <Polygon.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="0.02" ScaleY="0.02"/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="-20"/>
+                                    <TranslateTransform X="-456.32"/>
+                                </TransformGroup>
+                            </Polygon.RenderTransform>
+                        </Polygon>
+                        <Polygon Points="0,180,0,135,270,135,270,180" 
+        Fill="green" />
+                    </Canvas>
+                </Viewbox>
+            </TabItem>
+
+            
+        </TabControl>
+    </Grid>
+</Window>
